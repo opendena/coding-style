@@ -7,6 +7,9 @@
 
 This config is available in a [`.editorconfig`](.editorconfig)
 
+## Line length
+Line length must be 80 characters or less.
+
 ## Strict mode
 Always declare `'use strict';` at the top of your files.
 
