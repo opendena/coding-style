@@ -7,6 +7,12 @@
 
 This config is available in a [`.editorconfig`](.editorconfig)
 
+## Linters
+We use [`jshint`](http://jshint.com/) and [`eslint`](http://eslint.org/).
+
+Make sur your code pass the both with [`.jshintrc`](.jshintrc) and [`.eslintrc`](.eslintrc).
+There is many plugins to run those linter while saving on your favorite editor.
+
 ## Line length
 Line length must be 80 characters or less.
 
