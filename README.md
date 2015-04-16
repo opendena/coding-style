@@ -23,6 +23,29 @@ if the file may be required by external code, bind it into a closure for exemple
 })();
 ```
 
+## Naming conventions
+- Use english only.
+- Use camelCase for objects, functions, instances.
+  ```javascript
+  // bad
+  var MYUSER = {}
+    , user_uuid = ''
+  ;
+  
+  // good
+  var myUser = {}
+    , userUuid = ''
+  ;
+  ```
+- Use PascalCase for constructors or classes
+  ```javascript
+  // bad
+  var user = new userObject();
+  
+  // god
+  var user = new UserObject();
+  ```
+
 ## Literal syntax
 ```javascript
 // bad
