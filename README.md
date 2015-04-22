@@ -1,7 +1,7 @@
 # JavaScript
 
 ## Editor
-- Use 2 spaces identation (no tabs)
+- Use 2 spaces indentation (no tabs)
 - Use utf-8 charset
 - Use LF (`\n`) for end of lines (see [`Wikipedia`](http://en.wikipedia.org/wiki/Newline))
 
@@ -19,7 +19,7 @@ Line length must be 80 characters or less.
 ## Strict mode
 Always declare `'use strict';` at the top of your files.
 
-if the file may be required by external code, bind it into a closure for exemple :
+If the file may be required by external code, bind it into a closure for example :
 ```javascript
 // bad
 'use strict';
@@ -33,7 +33,7 @@ if the file may be required by external code, bind it into a closure for exemple
 ```
 
 ## Naming conventions
-- Use english only.
+- Use English only.
 - Use camelCase for objects, functions, instances.
   ```javascript
   // bad
@@ -99,6 +99,6 @@ var user = {
 }
 ```
 
-# Licence
-OpenDena coding-style is under the MIT licence. Please see 
+# License
+OpenDena coding-style is under the MIT license. Please see 
 [`LICENSE`](LICENSE)
