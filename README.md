@@ -26,6 +26,7 @@ If the file may be required by external code, bind it into a closure for example
 …
 
 // good
+/*eslint-disable strict */
 (function() {
   'use strict';
   …
